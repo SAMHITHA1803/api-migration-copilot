@@ -1,0 +1,13 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+.git/
+.github/
+frontend/
+evaluation/
+chroma_db/
+workspace/
+.next/
+node_modules/
