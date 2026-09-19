@@ -22,7 +22,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
     "http://localhost:3000",
-    "https://api-migration-copilot-ldza1hr9z-api-migration-copilot.vercel.app",
+    "https://api-migration-copilot.vercel.app",
 ],
     allow_credentials=True,
     allow_methods=["*"],
