@@ -21,8 +21,9 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:3000"
-    ],
+    "http://localhost:3000",
+    "https://api-migration-copilot-7aditk2z1-api-migration-copilot.vercel.app",
+],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
